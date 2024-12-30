@@ -1,92 +1,76 @@
 * {
-    margin: 0;
     padding: 0;
-    font-family: Calibri, 'Trebuchet MS', sans-serif
-}
-
-.body {
-    margin-top: 10px;
-    color:white;
+    margin: 0;
+    font-family: Calibri;
     text-decoration: none;
+    color:white;
+    list-style: none;
 }
 
-/* header styling */
-.imp {
-    margin: auto;
-    position: relative;
-    z-index: 1000;
-    /* display: flex;
-    justify-content: end; */
-    background-color: rgb(3, 16, 49);
+.navabar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    background-color: rgb(22, 22, 45);
+    
 }
 
-li button {
-    width: 100px;
-    height: 30px;
-    /* margin-left: 60px; */
-    transition: all 0.5s;
-    cursor: pointer;
-    color: rgb(18, 12, 2);
-    background-color:orange;
-    border-radius: 30px;
-    border: 1px solid rgb(11, 2, 2);
+.navabar img {
+    width: 80px;
+    height: 80px;
+    margin-left: 40px
+    
 }
 
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-.button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-.button:hover span {
-    padding-right: 25px;
-}
-
-.button:hover span:after {
-    opacity: 1;
-    right: 10px;
-}
-
-ul li {
-    list-style: none;
-    display: inline-block;
-    font-size: 20px;
-    /* padding-top: 40px; */
-    margin-top: 35px;
-    margin-right: 50px;
-}
-
-.img {
-    width: 100px;
-    height: 100px;
-    margin-left: 20px;
-    margin-top: 0;
-
-}
-
-/* Navbar styling */
-
-.bar {
-    margin-left: 80px;
-    margin-top: 2px;
-}
-
-ul li a {
-    list-style: none;
-    text-decoration: none;
+li {
+    display: inline;
     margin-right: 80px;
-    color:white;
+    font-weight: 800;
+    
+}
+li a{
+    color: white;
+}
+li:hover{
+    background-color: orange;
+    font-size: 18px;
+    transition-duration: 0.2s;
+    
+}
 
+.contact-section{
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(22, 22, 45);
+    border-radius: 10px;
+    height: 300px;
+    width: 280px;
+}
+.info{
+    padding-top: 10px;
+}
+
+h3{
+    margin-left: 7px;
+}
+form{
+    display: block;
+    justify-items: center;
+}
+
+.button button {
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: rgb(106, 58, 228);
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    font-weight: 800;
+}
+
+button:hover{
+    background-color: rgb(30, 226, 72);
 }
