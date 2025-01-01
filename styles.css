@@ -8,7 +8,8 @@
 .header {
     display: flex;
     justify-content: space-between;
-    color:rgb(98, 85, 85);
+    color: rgb(98, 85, 85);
+    border-bottom: 2px solid rgb(192, 166, 166);
 }
 
 .call-info img {
@@ -33,9 +34,9 @@
     margin-bottom: 10px;
 }
 
-.call-info{
+.call-info {
     display: flex;
-    justify-content:start;
+    justify-content: start;
 }
 
 
@@ -53,9 +54,9 @@
     margin-bottom: 10px;
 }
 
-.order-details{
+.order-details {
     display: flex;
-    justify-content:start;
+    justify-content: start;
 }
 
 
@@ -67,4 +68,33 @@
     margin-bottom: 10px;
 }
 
-/*   */
+/*  style for navbar */
+
+.navbar {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: start;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+}
+
+.search {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.search input[type=text] {
+    width: 800px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    background-image: url(search.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    padding: 4px 15px 5px 45px;
+}
